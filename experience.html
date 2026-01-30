@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Experience | Neelkumar Patel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">Neel Patel</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a class="active" href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Work Experience</h1>
+    <p class="subtext">Roles, responsibilities, and accomplishments</p>
+
+    <section class="card">
+      <h2>Graduate Teaching Assistant | George Mason University, USA</h2>
+      <p class="small">Jan 2025 – Present</p>
+      <ul class="list">
+        <li>Supported web development and web server administration coursework (HTML, CSS, JavaScript).</li>
+        <li>Guided hands-on labs with Apache, DNS, and FTP configuration.</li>
+        <li>Built and updated course materials to improve student understanding of scalable web systems and secure server administration.</li>
+      </ul>
+
+      <div class="hr"></div>
+
+      <h2>Data Analyst Intern | Dev Information Technology, India</h2>
+      <p class="small">Jan 2024 – May 2024</p>
+      <ul class="list">
+        <li>Built interactive Power BI dashboards for pharma data (sales trends, product performance).</li>
+        <li>Used Python (Pandas, NumPy) for data cleaning and transformation.</li>
+        <li>Analyzed Gujarat government import-export data using Power BI to produce insights on products, timings, and volumes.</li>
+      </ul>
+
+      <div class="hr"></div>
+
+      <h2>Backend Developer Intern | VNerds, India</h2>
+      <p class="small">Jun 2023 – Sep 2023</p>
+      <ul class="list">
+        <li>Developed a Movie Recommendation System using KNN collaborative filtering and cosine similarity.</li>
+        <li>Used Python with Pandas, NumPy, and Scikit-learn for preprocessing and model implementation.</li>
+      </ul>
+
+      <div class="hr"></div>
+
+      <h2>Web Developer Intern | Logical Plateau, India</h2>
+      <p class="small">May 2022 – Jun 2022</p>
+      <ul class="list">
+        <li>Built automated Django APIs to update company databases across 24+ tables nightly.</li>
+        <li>Designed a cost-savings calculator in HTML/CSS for an EV scooter website.</li>
+        <li>Developed and deployed a WordPress website for a hospitality business.</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:16px;">
+      <h2>Projects (Optional page section)</h2>
+      <ul class="list">
+        <li><b>BabyLM Challenge:</b> Built sample-efficient LMs with PyTorch + Transformers; reported strong data efficiency.</li>
+        <li><b>Bank Loan Defaulter Prediction:</b> Naive Bayes model in IBM SPSS Modeler for risk classification.</li>
+        <li><b>Real-Time Face Recognition:</b> OpenCV + Python face recognition; transitioning toward PyTorch CNNs.</li>
+        <li><b>Interactive Storytelling Game:</b> Unity + Firebase + Django site + Power BI dashboard for analytics.</li>
+      </ul>
+    </section>
+
+    <p class="footer">© <span id="y"></span> Neelkumar Patel</p>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

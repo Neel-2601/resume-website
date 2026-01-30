@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Education | Neelkumar Patel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">Neel Patel</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Education</h1>
+    <p class="subtext">Academic background and coursework</p>
+
+    <section class="card">
+      <h2>Master in Data Analytics Engineering</h2>
+      <p class="small"><b>George Mason University</b> • CGPA: 3.73/4.00 • Aug 2024 – Present</p>
+      <div class="hr"></div>
+      <h2>Bachelor in Computer Science and Engineering</h2>
+      <p class="small"><b>Ganpat University</b> • CGPA: 8.12/10.0 • Aug 2020 – May 2024</p>
+
+      <div class="hr"></div>
+
+      <h2>Relevant Coursework (Optional)</h2>
+      <ul class="list">
+        <li>Data Analytics, Machine Learning, Databases</li>
+        <li>Web Development and APIs</li>
+        <li>Big Data Tools (Spark/Hadoop ecosystem)</li>
+      </ul>
+    </section>
+
+    <p class="footer">© <span id="y"></span> Neelkumar Patel</p>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

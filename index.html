@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neelkumar Patel | Resume Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAV (copy same navbar on every page) -->
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">Neel Patel</div>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Neelkumar Patel</h1>
+    <p class="subtext">Data Analytics Engineering (M.S.) • Web & Data • ML / Analytics</p>
+
+    <div class="grid">
+      <section class="card">
+        <div class="profile">
+          <img class="avatar" src="assets/images/profile.jpg" alt="Profile photo of Neelkumar Patel" />
+          <div>
+            <div class="badge">George Mason University</div>
+            <div class="badge">Ashburn, VA</div>
+            <p class="small" style="margin:8px 0 0;">
+              Tip: If you don’t want to use your real photo, use any image and name it <b>profile.jpg</b>.
+            </p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Career Objective</h2>
+        <p class="small">
+          I’m pursuing a Master’s in Data Analytics Engineering and I’m looking to apply analytics, machine learning,
+          and web/API development skills to build practical, data-driven solutions.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn" href="skills.html">View Skills</a>
+          <a class="btn" href="experience.html">View Experience</a>
+          <!-- Optional: if you upload your PDF resume into repo root, rename it resume.pdf -->
+          <!-- <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a> -->
+        </div>
+      </section>
+
+      <aside class="card">
+        <h2>Quick Summary</h2>
+        <ul class="list">
+          <li>Graduate Teaching Assistant at George Mason University.</li>
+          <li>Experience with Python, Power BI, and backend development (Django / APIs).</li>
+          <li>Projects in NLP/LLMs, face recognition, and analytics dashboards.</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Highlights</h2>
+        <div class="kv">
+          <div class="row"><span class="badge">Python</span><span class="badge">Power BI</span><span class="badge">SQL/NoSQL</span></div>
+          <div class="row"><span class="badge">Django</span><span class="badge">Flask</span><span class="badge">FastAPI</span></div>
+          <div class="row"><span class="badge">PyTorch</span><span class="badge">OpenCV</span><span class="badge">AWS</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <p class="footer">© <span id="y"></span> Neelkumar Patel • Resume Website</p>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

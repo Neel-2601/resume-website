@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skills | Neelkumar Patel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">Neel Patel</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a class="active" href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Skills</h1>
+    <p class="subtext">Technical tools, languages, and platforms</p>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Languages</h2>
+        <ul class="list">
+          <li>Python (Advanced), Java, C++, C, R, Scala</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Web & APIs</h2>
+        <ul class="list">
+          <li>REST APIs, Node.js, Django, Flask, FastAPI, React</li>
+          <li>JSON, XML</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Databases / Big Data</h2>
+        <ul class="list">
+          <li>SQL, NoSQL, SQLite, MongoDB, Firebase</li>
+          <li>Hadoop, Hive, HBase, Spark, DynamoDB</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h2>Tools & Technologies</h2>
+        <ul class="list">
+          <li>OpenCV, PyTorch, Scikit-learn, Pandas, NumPy</li>
+          <li>SAS, Power BI, MATLAB</li>
+          <li>AWS (S3, EC2), Git, Linux (Bash)</li>
+          <li>VMware Workstation, MySQL Workbench, IBM Watson Studio, JIRA</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Soft Skills</h2>
+        <ul class="list">
+          <li>Communication & teamwork</li>
+          <li>Teaching / mentoring</li>
+          <li>Problem-solving</li>
+        </ul>
+      </aside>
+    </div>
+
+    <p class="footer">© <span id="y"></span> Neelkumar Patel</p>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
